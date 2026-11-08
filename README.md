@@ -241,21 +241,21 @@ breast-tumour-classification/
     ├── 03_feature_correlations.png
     ├── 04_predict.png
     
-```
-
 ---
-
 ## 10. Installation and Execution
 
 ### Prerequisites
 
-- Python 3.9 or later.
-- pip package manager.
+- Python 3.9 or later
+- pip package manager
+- Git
 
 ### Step 1: Clone the Repository
 
+Open your terminal and run:
+
 ```bash
-git clone <repository-url>
+git clone https://github.com/sar-isha07/Breast-Tumour-Classification.git
 ```
 
 ### Step 2: Navigate to the Project Directory
@@ -276,9 +276,17 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application will open in your default browser.
+The application will open automatically in your default browser. If it doesn't, open the local URL displayed in your terminal.
 
----
+### Optional: Retrain the Model
+
+To train the models and regenerate the saved Logistic Regression model, run:
+
+```bash
+python train_model.py
+```
+
+After successful execution, launch the application using the command in Step 4.
 
 ## 11. Limitations
 
