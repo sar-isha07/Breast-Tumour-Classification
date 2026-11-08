@@ -209,6 +209,7 @@ The project includes an interactive dashboard with the following sections:
 
 ## 9. Project Structure
 
+```text
 breast-tumour-classification/
 │
 ├── app.py
@@ -240,7 +241,7 @@ breast-tumour-classification/
     ├── 02_dashboard.png
     ├── 03_feature_correlations.png
     ├── 04_predict.png
-    
+```
 ---
 ## 10. Installation and Execution
 
